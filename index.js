@@ -9,7 +9,7 @@ const  dublinCoordinates = {
     longitude: '-6.257664'
 };
 
-//get the  array of customer records   and store in customerArrray
+//get the  array of customer records by passing the file name  and store in customerArrray
 let customersArray =customersData.exportFileData('Customers _Assignment_Coding Challenge.txt');
 
 // iterating through customerArray so that we can  calculate the distance
@@ -26,7 +26,12 @@ for(let customer of customersArray){
 }
   
 //sort the results and display the sorted results
-console.log(sort.sortCustomerRecords(result));
+function sortResults(){
+ return  sort.sortCustomerRecords(result);
+}
 
+module.exports = {
+    sortResults
+};
 
 
