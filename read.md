@@ -11,7 +11,7 @@
   `npm install `
 
 ## Usage
-    var customerRecords = require('customerRecordsSearch');
+    var customerRecords = require('customerrecordssearch');
     var results = customerRecords.sortResults();
     console.log(results);
 
