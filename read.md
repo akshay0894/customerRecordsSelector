@@ -8,13 +8,14 @@
    You should have latest version of node.js in your computer 
 
  ## Installation
-  `npm install @jdaudier/number-formatter`
+  `npm install `
 
 ## Usage
-    var customerRecords = require('');
+    var customerRecords = require('customerRecordsSearch');
     var results = customerRecords.sortResults();
-  
-  Output should be customer records which are under 100 km  range  sorted by user_id in acsending order.
+    console.log(results);
+
+  Output should be customer records in the result which are under 100 km  range  sorted by user_id in acsending order.
 
 
 ## Contributing
