@@ -8,7 +8,7 @@
    You should have latest version of node.js in your computer 
 
  ## Installation
-  `npm install `
+  `npm install customerrecordssearch `
 
 ## Usage
     var customerRecords = require('customerrecordssearch');
